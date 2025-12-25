@@ -7,7 +7,7 @@ const To_Do_List = () => {
 
     const add_task = () => {
         if (task.trim() === '') {
-            alert("Bosrey k Task to add karo")
+            alert("Please first enter your task")
             return
         }
         settasks([...tasks, task])
